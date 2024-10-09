@@ -1,0 +1,70 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #240e5b, #351b71, #462687, #58309e, #6b38b5, #7f40cd, #9447e6, #aa4cff);
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#contenitore {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex: 1;
+}
+
+label {
+    color: whitesmoke;
+}
+
+#professione,
+#geo-area {
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+button {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 150px;
+    padding: 18px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #a2b1c5;
+}
+
+button:hover {
+    background-color: #87A2FF;
+}
+
+#container-risultati {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+#risultato-testo {
+    color: whitesmoke;
+}
