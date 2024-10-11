@@ -133,7 +133,10 @@ function trovaDevForm() {
   
   // seleziono il div all'interno del quale voglio vedere il risultato
   const risultatiDiv = document.getElementById("container-risultati");
-  
+
+//pulisco gli input
+const puliziaInput = document.getElementById("container-risultati").innerHTML = "";
+
   // mostro i risultati
   if (risultati.count > 0) {
       risultati.result.forEach(function(lavoro) {
