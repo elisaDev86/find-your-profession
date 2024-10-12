@@ -65,6 +65,6 @@ button:hover {
     margin-right: 50px;
 }
 
-#risultato-testo {
-    color: whitesmoke;
+ul {
+    list-style-type: none;
 }
