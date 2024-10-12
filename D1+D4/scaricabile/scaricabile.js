@@ -141,10 +141,10 @@ const puliziaInput = document.getElementById("container-risultati").innerHTML = 
   if (risultati.count > 0) {
       risultati.result.forEach(function(lavoro) {
           //concateno le stringhe
-          risultatiDiv.innerHTML += "<p>" + lavoro.title + " - " + lavoro.location + "</p>";
+          risultatiDiv.innerHTML += "<ul><li>" + lavoro.title + " - " + lavoro.location + "</li></ul>";
       });
   } else {
-      risultatiDiv.innerHTML = "<p>Nessun lavoro trovato</p>";
+      risultatiDiv.innerHTML = "<ul><li>Nessun lavoro trovato</li></ul>";
   }
 }
 
